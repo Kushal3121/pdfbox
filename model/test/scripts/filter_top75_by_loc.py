@@ -15,4 +15,4 @@ top75 = df.sort_values(by='LOC', ascending=False).head(75)
 # Save to new CSV
 top75.to_csv('v31_top75.csv', index=False)
 
-print("✅ Saved top 75 classes by LOC to v31_top75.csv")
+print("Saved top 75 classes by LOC to v31_top75.csv")
